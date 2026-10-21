@@ -1,0 +1,2 @@
+C:\Users\Ram\aspdotnet\StaticFIleExample\StaticFIleExample\wwwroot\Ramdayal_Patel_Resume.pdf
+C:\Users\Ram\aspdotnet\StaticFIleExample\StaticFIleExample\wwwroot\image.jpg
