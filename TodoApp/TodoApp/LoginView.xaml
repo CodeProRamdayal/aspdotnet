@@ -52,13 +52,27 @@
                      x:Name="PasswordText"
                      Padding="5"/>
 
-        <!-- Login Button -->
-        <Button Grid.Row="8"
+
+        <StackPanel Grid.Row="11"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center">
+            <!-- Login Button -->
+            <Button Grid.Row="8"
                 Content="Login"
                 Width="120"
                 Height="35"
+                    Margin="3"
                 HorizontalAlignment="Center"
                 Click="LoginButton_Clicked"/>
+
+            <Button Grid.Row="8"
+                Content="Register"
+                Width="120"
+                Height="35"
+                    Margin="3"
+                HorizontalAlignment="Center"
+                Click="RegisterUser"/>
+        </StackPanel>
 
     </Grid>
 </UserControl>

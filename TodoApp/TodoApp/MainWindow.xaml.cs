@@ -24,6 +24,11 @@ namespace TodoApp
             // Open Todo screen
             MainContent.Content = new TodoView();
         }
+        public void NavigateToRegisterUser()
+        {
+            // Open Todo screen
+            MainContent.Content = new RegisterUser();
+        }
 
         //private void TodoInput()
         //{

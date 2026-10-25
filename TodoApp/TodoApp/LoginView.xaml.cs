@@ -27,7 +27,7 @@ namespace TodoApp
 
             string username = Username.Text.Trim();
             string password = PasswordText.Text;
-            if(!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
+            if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 if(username !="admin" || password != "admin")
                 {
@@ -41,7 +41,12 @@ namespace TodoApp
                 (MainWindow)Application.Current.MainWindow;
 
             mainWindow.NavigateToTodo();
+        }
 
+        private void RegisterUser(object sender, RoutedEventArgs e) 
+        {
+            var mainWindow = (MainWindow)Application.Current.MainWindow;
+            mainWindow.NavigateToRegisterUser();
         }
     }
 }

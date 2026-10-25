@@ -25,3 +25,5 @@ C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\LoginView.baml
 C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\TodoView.g.cs
 C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\TodoView.baml
 C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\RegisterUser.g.cs
+C:\Users\Ram\aspdotnet\TodoApp\TodoApp\obj\Debug\net10.0-windows\RegisterUser.baml
